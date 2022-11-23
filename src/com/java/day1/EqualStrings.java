@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class EqualStrings {
 
 	public static void main(String[] args) {
+		//Taking user input
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the first String");
 		String s1 = sc.next();
