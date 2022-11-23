@@ -1,6 +1,7 @@
 package com.java.day1;
 
 public class StaticVariable {
+	
 	static int x = 10;
 	   static int y;
 	   static void func(int z) {
@@ -12,6 +13,7 @@ public class StaticVariable {
 	      System.out.println("Running static initialization block.");
 	      y = x + 5;
 	   }
+	   //Driver class
 	   public static void main(String args[]) {
 	      func(8);
 	   }
