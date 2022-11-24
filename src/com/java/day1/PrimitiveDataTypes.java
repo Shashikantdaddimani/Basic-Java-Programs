@@ -1,5 +1,6 @@
 package com.java.day1;
 
+//class definition
 public class PrimitiveDataTypes {
 		static byte b;
 		static short s;
@@ -10,6 +11,7 @@ public class PrimitiveDataTypes {
 		static char ch;
 		static boolean bool;
 		public static void main(String[] args) {
+			//main method
 			System.out.println("Default Values of Data-Types:");
 			System.out.println("Byte: "+b);
 			System.out.println("Short: "+s);
