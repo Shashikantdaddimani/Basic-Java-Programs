@@ -1,23 +1,30 @@
 package com.java.day1;
 
+//imports the scanner class of the java.utill package
 import java.util.Scanner;
 
-public class EqualStrings {
-
-	public static void main(String[] args) {
+//class definition
+public class EqualStrings 	
+{
+		//main method
+	public static void main(String[] args) 
+	{
 		//Taking user input
-		Scanner sc = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		System.out.println("Enter the first String");
-		String s1 = sc.next();
+		String string1 = input.next();
 		
 		System.out.println("Enter the Second String");
-		String s2 = sc.next();
+		String strring2 = input.next();
 		
-		if(s1.equals(s2))
+		//Logic to check the both the Strings are equal or not
+		if(string1.equals(strring2))
 			System.out.println("Both Strings are equal");
 		else
 			System.out.println("Both Strings are not equal");
-
+		
+		
 	}
+	
 
 }
