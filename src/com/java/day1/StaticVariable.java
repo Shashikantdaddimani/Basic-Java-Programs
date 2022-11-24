@@ -1,5 +1,6 @@
 package com.java.day1;
 
+//class definition
 public class StaticVariable {
 	
 	static int x = 10;
